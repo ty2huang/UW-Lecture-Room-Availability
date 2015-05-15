@@ -1,5 +1,5 @@
 # UW-Lecture-Room-Availability
-This program is written in Dr Racket. Search your lecture room in the "lectureSearch.rkt" file to find all the time slots that the lecture room is available or occupied by a lecture.
+This program is written in Dr Racket. Search your University of Waterloo lecture room in the "lectureSearch.rkt" file to find all the time slots that the lecture room is available or occupied by a lecture.
 
 Read the comments at the top of "lectureSearch.rkt" file to understand how to use the program.
 
