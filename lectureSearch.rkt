@@ -12,9 +12,10 @@
 ;; (room-schedule building room) produces a schedule for when the building and room 
 ;;  is free with #\F or when it is occupied with #\O. This may be useful for finding
 ;;  when lecture rooms are open for studying or setting up events (or watching a movie).
+;;  Note: may take several minutes to produce results
 
 ; Example:
-; (room-schedule "HH" 227) produces
+; (room-schedule "HH" 227) produced during Winter 2014
 ; '(("08:30" #\F #\F #\F #\F #\F)
 ;   ("09:00" #\F #\F #\F #\F #\F)
 ;   ("09:30" #\O #\O #\O #\F #\O)
@@ -43,7 +44,7 @@
 ;   ("21:00" #\F #\F #\F #\F #\F)
 ;   ("21:30" #\F #\F #\F #\F #\F))
 
-; (room-schedule "M3" 1006) produces
+; (room-schedule "M3" 1006) produced during Winter 2014
 ; '(("08:30" #\O #\O #\O #\O #\O)
 ;   ("09:00" #\O #\O #\O #\O #\O)
 ;   ("09:30" #\O #\O #\O #\O #\O)
