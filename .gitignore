@@ -1,4 +1,5 @@
 # Ignore everything
 *
 # Except these files:
+!.gitignore
 !*.rkt
